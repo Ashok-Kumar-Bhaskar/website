@@ -1,9 +1,28 @@
 
+   .column {
+    float: left;
+    width: 25%;
+    display: flex;
+  }
+  
+  .common
+  {
+    margin-top: 5%;
+    margin-left: 10%;
+  }
+
+  .image
+  {
+    border-radius: 50%;
+    width: 65%;
+    height: 40%;
+    border: 2px solid black;
+  }
 
 
 .welcome
 {
-    padding: 10%;
+
     text-align: center;
     font-size: 300%;
 }
@@ -13,4 +32,15 @@
     padding: 1%;
     text-align: center;
     font-size: 110%;
+    margin-top: 15%;
+}
+
+.pp
+{
+    border-radius: 50%;
+    width: 15%;
+    height: 20%;
+    border: 2px solid black;
+    position: relative;
+    margin-left: 40%;    
 }

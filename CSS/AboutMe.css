@@ -15,9 +15,10 @@
 .pp
 {
     border-radius: 50%;
-    width: 10%;
-    height: 20%;
+    border: 2px solid black;
+    width: 15%;
+    height: 10%;
     position: relative;
-    margin-left: 45%;
+    margin-left: 40%;
     margin-top: 2%;     
 }
