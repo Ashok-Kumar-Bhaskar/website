@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Academics</title>
+        <link rel="stylesheet" type="text/css" href="CSS/commonStyleSheet.css">
+        <link rel="stylesheet" type="text/css" href="CSS/Academics.css">
+        <script src="logout.js"></script>
+    </head>
+
+    <body onload="islogin()"> 
+     
+        <header class="header">
+            <img src="Images/logo.png" alt="logo" class="logo">
+            <a href="#" onclick="logout()">
+              <img src="Images/logout.png" alt="logout" class="logout">
+          </a>
+            
+        </header>
+        
+        <div class="menu">
+            <a href="home.html">Home</a>
+            <a href="AboutMe.html">About Me</a>
+            <a class="active" href="Academics.html">Academics</a>
+            <a href="Hobbies.html">Hobbies</a>
+            <a href="Gallery.html">Gallery</a>
+            <a href="ContactMe.html">Contact</a>
+        </div>
+        
+        
+        <table class="tab" style="border-radius: 2em;">
+            <tr>
+              <th>Level of Education</th>
+              <th>Course Name</th>
+              <th>Name of College or School</th>
+              <th>Percentage Obtained (%)</th>
+            </tr>
+            <tr>
+              <td>Secondary Education</td>
+              <td>10th</td>
+              <td>Jawahar Vidyalaya Senior Secondary School, Chennai</td>
+              <td>95</td>
+            </tr>
+            <tr>
+              <td>Senior Secondary Education</td>
+              <td>12th</td>
+              <td>Devi Academy Senior Secondary School, Chennai</td>
+              <td>91.8</td>
+            </tr>
+            <tr>
+              <td class="bottomleft">Under Graduation</td>
+              <td>B.Tech.[Mechanical Engineering]</td>
+              <td>SASTRA Deemed University, Thanjavur</td>
+              <td class="bottomright">78.7</td>
+            </tr>
+        </table>
+        
+        
+        <script src="https://www.gstatic.com/firebasejs/6.4.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/6.4.2/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+        <footer class="footer">
+            Copyrights Reserved
+        </footer>
+    </body>
+</html>

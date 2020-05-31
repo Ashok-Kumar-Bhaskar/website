@@ -1,0 +1,51 @@
+.open-ids {
+  width: 100%;
+  margin: 0 20;
+}
+
+.auth-provider {
+  font-family: system-ui,roboto,sans-serif;
+  font-weight: 500;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 100%;
+  width: 40%;
+  line-height: 300%;
+  padding: 0 2%;
+  border-radius: 2%;
+  cursor: pointer;
+  margin-bottom: 10%;
+  box-sizing: border-box;
+  border: 20% solid #d6d9dc;
+  text-align: center;
+  background: #FFF;
+  color: #535a60
+}
+
+.google-login {
+  color: #535a60;
+  border-color: #d6d9dc
+}
+
+.welcome
+{
+  margin-top: 10%;
+  background-color: black;
+  color: white;
+
+  width: 100%;
+  font-size: 300% ;
+  text-align: center;
+  word-wrap: normal;
+}
+
+
+
+.logo1
+{
+  padding: 1%;
+  max-width: 20%;
+  max-height: 20%;
+  margin-left: 41%;
+}

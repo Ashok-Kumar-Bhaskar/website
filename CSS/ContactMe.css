@@ -1,0 +1,33 @@
+
+.details {
+    margin-top: 15%;
+    margin-left: 27%;
+    width: 50%;
+    height: 22%;
+    padding: 1% 1%;
+    font-size: larger;
+    color: white;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: black;
+    resize: none;
+  }
+
+  .image
+  {
+    border-radius: 50%;
+    width: 40%;
+    height: 40%;
+  }
+  .column {
+    float: left;
+    width: 20%;
+    display: flex;
+  }
+  
+  .common
+  {
+    margin-top: 2%;
+    margin-left: 10%;
+  }

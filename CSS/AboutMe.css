@@ -1,0 +1,22 @@
+.para
+{
+    background-color: #b0aba0;
+    font-size: 115%;
+    padding: 2%;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1%;
+    border-radius: 2em;
+    text-align: justify;
+}
+
+.pp
+{
+    border-radius: 50%;
+    width: 10%;
+    height: 20%;
+    position: relative;
+    margin-left: 45%;
+    margin-top: 2%;     
+}

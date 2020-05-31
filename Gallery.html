@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gallery</title>
+        <link rel="stylesheet" type="text/css" href="CSS/commonStyleSheet.css">
+        <link rel="stylesheet" type="text/css" href="CSS/Gallery.css">
+        <script src="logout.js"></script>
+    </head>
+
+    <body onload="islogin()"> 
+
+        <header class="header">
+            <img src="Images/logo.png" alt="logo" class="logo">
+            <a href="#" onclick="logout()">
+                <img src="Images/logout.png" alt="logout" class="logout">
+            </a>
+            
+        </header>
+        
+        <div class="menu">
+            <a href="home.html">Home</a>
+            <a href="AboutMe.html">About Me</a>
+            <a href="Academics.html">Academics</a>
+            <a href="Hobbies.html">Hobbies</a>
+            <a class="active" href="Gallery.html">Gallery</a>
+            <a href="ContactMe.html">Contact</a>
+        </div>
+        
+
+
+
+       
+
+        <div class="content section" style="max-width:45%">
+          <img class="mySlides" src="Images/Gallery/Gallery 1.jpg" style="width:100%">
+          <img class="mySlides" src="Images/Gallery/Gallery 2.jpg" style="width:100%">
+          <img class="mySlides" src="Images/Gallery/Gallery 3.jpg" style="width:100%">
+          <img class="mySlides" src="Images/Gallery/Gallery 4.jpg" style="width:100%">
+          <img class="mySlides" src="Images/Gallery/Gallery 5.jpg" style="width:100%">
+          <img class="mySlides" src="Images/Gallery/Gallery 6.jpg" style="width:100%">
+          <img class="mySlides" src="Images/Gallery/Gallery 7.jpg" style="width:100%">
+          <img class="mySlides" src="Images/Gallery/Gallery 8.jpg" style="width:100%">
+          <img class="mySlides" src="Images/Gallery/Gallery 9.jpg" style="width:100%">
+          <img class="mySlides" src="Images/Gallery/Gallery 10.jpg" style="width:100%">
+          <img class="mySlides" src="Images/Gallery/Gallery 11.jpg" style="width:100%">
+        </div>
+
+        <script>
+          var myIndex = 0;
+          carousel();
+                  
+          function carousel()
+          {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              for (i = 0; i < x.length; i++) 
+              {
+                  x[i].style.display = "none";  
+              }
+              myIndex++;
+              if (myIndex > x.length) {myIndex = 1}    
+              x[myIndex-1].style.display = "block";  
+              setTimeout(carousel, 2000); // Change image every 2 seconds
+          }
+        </script>  
+        
+        
+        
+        <script src="https://www.gstatic.com/firebasejs/6.4.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/6.4.2/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+          
+       
+        <footer class="footer">
+            Copyrights Reserved
+        </footer>
+    </body>
+</html>
+

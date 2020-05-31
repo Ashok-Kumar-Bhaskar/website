@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About Me</title>
+        <link rel="stylesheet" type="text/css" href="CSS/commonStyleSheet.css">
+        <link rel="stylesheet" type="text/css" href="CSS/AboutMe.css">
+        <script src="logout.js"></script>
+    </head>
+
+    <body onload="islogin()"> 
+        <header class="header">
+            <img src="Images/logo.png" alt="logo" class="logo">
+            <a href="#" onclick="logout()">
+                <img src="Images/logout.png" alt="logout" class="logout">
+            </a>
+        </header>
+        
+        <div class="menu">
+            <a href="home.html">Home</a>
+            <a class="active" href="AboutMe.html">About Me</a>
+            <a href="Academics.html">Academics</a>
+            <a href="Hobbies.html">Hobbies</a>
+            <a href="Gallery.html">Gallery</a>
+            <a href="ContactMe.html">Contact</a>
+        </div>
+        
+        <img src="Images/ashok.jpg" class="pp">
+
+
+        <article class="para">
+            I am Ashok Kumar. B, an engineering graduate thriving to find my place in this ever-developing world of possibilities.
+            Being always open to challenges and constructive feedback definitely kept my life enthralled upto this point
+            and I don't think I would ever want anything different. Playing the phased roles of volunteer, trainer, organizer, 
+            head through out my college life gave me the proof I needed to believe in myself that I would be a suitable team
+            player in the near and far future no matter the circumstance. I love to play the grounds of cricket and the courts of tennis, but hey,
+            you can't expect a rookie to be a star. But my other interest of watching movies is not totally for the 
+            interesting spewed up stories and choreographs, some of it gives me the sense of belief that be a rookie or an amateur, all it takes 
+            is a simple act of kindness and responsibility to achieve the goals we set out for in our lives and
+            a bit of smartness too which I possess I guess. Many people said languages are not a barrier for humanity 
+            but i learnt it the hard way that having few knacks in multilingual proficiency definitely pays off and swore myself to 
+            learn a few of the abundant languages and  i succeeded in learning Hindi, German and of course my mother tongue Tamil and the global language English. 
+            My level headedness is perfectly balance as all things should be because I would describe myself
+            as a person who doesn't lose his temper for nonsensical affairs. To sum it up my life motto is "Life is a one way ticket. Stop waiting for Friday,
+            for Summer, for Life, for someone who changes your path in a whim of a second.
+            Happiness is achieved when you stop waiting for it and make the most of the situation you are in now."
+            
+        </article>
+
+        
+        <script src="https://www.gstatic.com/firebasejs/6.4.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/6.4.2/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+        
+        <footer class="footer">
+            Copyrights Reserved
+        </footer>
+    </body>
+</html>

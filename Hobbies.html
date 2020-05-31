@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hobbies</title>
+        <link rel="stylesheet" type="text/css" href="CSS/commonStyleSheet.css">
+        <link rel="stylesheet" type="text/css" href="CSS/Hobbies.css">
+        <script src="logout.js"></script>
+    </head>
+
+    <body onload="islogin()"> 
+
+        <header class="header">
+            <img src="Images/logo.png" alt="logo" class="logo">
+            <a href="#" onclick="logout()">
+                <img src="Images/logout.png" alt="logout" class="logout">
+            </a>
+            
+        </header>
+        
+        <div class="menu">
+            <a href="home.html">Home</a>
+            <a href="AboutMe.html">About Me</a>
+            <a href="Academics.html">Academics</a>
+            <a class="active" href="Hobbies.html">Hobbies</a>
+            <a href="Gallery.html">Gallery</a>
+            <a href="ContactMe.html">Contact</a>
+        </div>
+
+       
+        
+        <div class="common">
+        <div class="column"><img src="Images/cinema.jpg" class="image"></div>
+        <div class="column"><img src="Images/streetplay.gif" class="image"></div>
+        <div class="column"><img src="Images/cricket.jpg" class="image"></div>
+        <div class="column"><img src="Images/draama.jpg" class="image"></div>
+        <div class="column"><img src="Images/tennis.jpg" class="image"></div>
+
+        </div>
+
+        
+        <p class="para">
+          Play is the word that describes the way kids try on this vast world for size and their 
+          place in it with imagination. Learning is more than pencil paper and pen and I did my 
+          learning with cricket bats and tennis rackets like every other kid in my neighborhood 
+          during my childhood summers. And I still do those even as an adult mostly to keep up 
+          with my fitness and health.<br>
+          <br>Film is a great tool to play with human emotions and I let that play with mine a 
+          lot more than others. South Indian movies irrespective of the language have me in a craze 
+          that would not be enough to describe me as a Cinebuff and a superstar fanboy.<br>
+          <br>Theatre is the art of looking at ourselves and I love looking at me
+          through dramas and streetplays. The things we do for ourselves definitely is self care,
+          but helping others is selfless care and I try to be selfless by being a part of 
+          community outreach groups and service organization such as Bhoomi.
+        </p>
+        
+        
+        <script src="https://www.gstatic.com/firebasejs/6.4.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/6.4.2/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+        
+        <footer class="footer">
+            Copyrights Reserved
+        </footer>
+    </body>
+</html>

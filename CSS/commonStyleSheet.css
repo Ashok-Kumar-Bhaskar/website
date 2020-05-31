@@ -1,0 +1,71 @@
+body
+{
+    background-color: #808080;
+}
+
+.header
+{
+    background-color: #808080;
+    
+    
+}
+
+.footer
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.logo
+{
+    padding: 1%;
+    max-width: 5%;
+    max-height: 5%;
+}
+
+.logout
+{
+    position: relative;
+    left: 87%;
+    padding: 1.5%;
+    max-width: 3%;
+    max-height: 3%;
+}
+.menu
+{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    overflow: hidden;
+    text-align: center;
+    width: 84%;
+
+}
+
+.menu a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: left;
+    display: block;
+    color: #ddd;
+    text-align: center;
+    padding: 1% 1%;
+    text-decoration: none;
+    width: 14%;
+    font-size: 150%;
+}
+
+  .menu a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+  .menu a.active {
+    background-color: #ddd;
+    color: black;
+}
