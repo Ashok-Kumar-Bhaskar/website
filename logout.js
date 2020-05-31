@@ -13,5 +13,6 @@ function islogin()
     else
     {
         window.location.replace("index.html");
+        return false;
     }
 }
