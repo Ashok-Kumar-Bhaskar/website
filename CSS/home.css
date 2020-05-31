@@ -1,28 +1,26 @@
-
-   .column {
+.column
+{
     float: left;
     width: 25%;
     display: flex;
-  }
+}
   
-  .common
-  {
+.common
+{
     margin-top: 5%;
     margin-left: 10%;
-  }
+}
 
-  .image
-  {
+.image
+{
     border-radius: 50%;
     width: 65%;
     height: 40%;
     border: 2px solid black;
-  }
-
+}
 
 .welcome
 {
-
     text-align: center;
     font-size: 300%;
 }
